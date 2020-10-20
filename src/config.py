@@ -11,7 +11,7 @@ def create_driver():
     elif system == 'Linux':
         path = 'chrome_linux/chromedriver'
     elif system == 'Windows':
-        path = os.getcwd() + '\chrome_windows\chromedriver.exe'
+        path = 'chromedriver.exe'
     else:
         raise OSError(f'Operating system {system} is not supported')
 
@@ -28,8 +28,8 @@ URL = "https://www.ea.com/pl-pl/fifa/ultimate-team/web-app/"
 EA_EMAIL = "EA@e.ea.com"
 
 PLAYER = {
-    "name": "Kloster",
-    "cost": 15000,
+    "name": "saint-maximin",
+    "cost": 35000,
 }
 
 INCREASE_COUNT = 20
